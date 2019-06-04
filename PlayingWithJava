@@ -1,0 +1,30 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int[] arr = new int[10];
+        arr[0] = 23;
+        arr[1] = -4;
+        arr[2] = -9;
+        arr[3] = -3;
+        arr[4] = 10;
+        arr[5] =  7;
+        arr[6] = 82;
+        arr[7] = 77;
+        arr[8] =  0;
+        arr[9] =  9;
+            
+            int arrayLength = arr.length;
+        System.out.println(arr.length + " Noted  ");
+        System.out.println("task A complete   ");
+        System.out.println(" ");
+        
+        arr[4] += arr[7];
+        System.out.println(arr[4] - arr[6]);
+        System.out.println("task B complete");
+        System.out.println(" ");
+        
+        return;
+    
